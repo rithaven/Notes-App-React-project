@@ -1,6 +1,6 @@
 import React from "react";
-import { Delete } from "react-feather";
 import classNames from "classnames";
+
 export default function Sidebar(props) {
   const noteElements = props.notes.map((note) => {
     const noteStyle = classNames(
